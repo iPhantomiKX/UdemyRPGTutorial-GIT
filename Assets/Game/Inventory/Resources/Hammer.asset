@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc047c233344664c9996be4c36379e2, type: 3}
   m_Name: Hammer
   m_EditorClassIdentifier: 
-  itemID: 4993011d-13bf-4a22-bc71-7d2a7d323e54
+  itemID: Hammer
   displayName: Hammer
   description: Heavy Hammer to knock enemies to the ground
   icon: {fileID: 21300000, guid: ec22508be0cdfba4abbaeb770bef08aa, type: 3}
