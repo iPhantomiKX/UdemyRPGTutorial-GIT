@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrefabConfig>
+	<PrefabTags>
+		<Tag>
+			<Name>Dungeon</Name>
+			<Active>True</Active>
+		</Tag>
+		<Tag>
+			<Name>Pillar</Name>
+			<Active>True</Active>
+		</Tag>
+		<Tag>
+			<Name>Statue</Name>
+			<Active>True</Active>
+		</Tag>
+		<Tag>
+			<Name>Ground</Name>
+			<Active>True</Active>
+		</Tag>
+		<Tag>
+			<Name>Wall</Name>
+			<Active>True</Active>
+		</Tag>
+	</PrefabTags>
+	<PrefabCategories>
+		<Category>
+			<Name>Default</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+		</Category>
+		<Category>
+			<Name>Dungeon</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+			<FolderNames>
+				<Name0>Assets</Name0>
+				<Name1>Asset Packs</Name1>
+				<Name2>L_FG_Assets_Pack1.0</Name2>
+				<Name3>Perfabs</Name3>
+				<Name4>Dungeon</Name4>
+			</FolderNames>
+			<Prefab>
+				<Name>Bridge01</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Bridge01.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Bridge02</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Bridge02.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon02_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon02_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon02_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon02_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_e</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_e.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon03_f</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon03_f.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon04_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon04_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon04_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon04_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon04_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon04_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_e</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_e.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_f</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_f.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_g</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_g.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_h</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_h.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon05_i</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon05_i.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_e</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_e.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_f</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_f.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_g</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_g.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_h</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_h.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Dungeon06_i</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Dungeon06_i.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Stair01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Stair01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Stair01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Stair01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Stair01_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Stair01_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_e</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_e.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_f</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_f.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Transport01_g</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Dungeon/Transport01_g.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Dungeon</Tag>
+			</Prefab>
+		</Category>
+		<Category>
+			<Name>Pillar</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+			<FolderNames>
+				<Name0>Assets</Name0>
+				<Name1>Asset Packs</Name1>
+				<Name2>L_FG_Assets_Pack1.0</Name2>
+				<Name3>Perfabs</Name3>
+				<Name4>Pillar</Name4>
+			</FolderNames>
+			<Prefab>
+				<Name>Pillar01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_e</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_e.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_f</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_f.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_h</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_h.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar02_i</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar02_i.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar03</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar03.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar04</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar04.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar05</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar05.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar06</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar06.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Pillar07</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Pillar/Pillar07.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Pillar</Tag>
+			</Prefab>
+		</Category>
+		<Category>
+			<Name>Statue</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+			<FolderNames>
+				<Name0>Assets</Name0>
+				<Name1>Asset Packs</Name1>
+				<Name2>L_FG_Assets_Pack1.0</Name2>
+				<Name3>Perfabs</Name3>
+				<Name4>Statue</Name4>
+			</FolderNames>
+			<Prefab>
+				<Name>Statue01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue02_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue02_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue02_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue02_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue03_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue03_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue03_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue03_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue04_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue04_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue04_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue04_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue05_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue05_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue05_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue05_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue06_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue06_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue06_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue06_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue06_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue06_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue06_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue06_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue07_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue07_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue07_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue07_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue07_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue07_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue07_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue07_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue08_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue08_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue08_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue08_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue08_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue08_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue08_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue08_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue09_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue09_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue09_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue09_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue09_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue09_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue09_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue09_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue10_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue10_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue10_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue10_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue10_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue10_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue10_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue10_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue11_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue11_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue11_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue11_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue11_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue11_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue11_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue11_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue12_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue12_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue12_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue12_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue12_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue12_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Statue12_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Statue/Statue12_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Statue</Tag>
+			</Prefab>
+		</Category>
+		<Category>
+			<Name>Ground</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+			<FolderNames>
+				<Name0>Assets</Name0>
+				<Name1>Asset Packs</Name1>
+				<Name2>L_FG_Assets_Pack1.0</Name2>
+				<Name3>Perfabs</Name3>
+				<Name4>Ground</Name4>
+			</FolderNames>
+			<Prefab>
+				<Name>Ground01</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground01.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground02</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground02.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground03</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground03.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground04</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground04.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground05</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground05.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground06</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground06.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground07</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground07.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground08</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground08.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground09</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground09.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Ground10</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Ground/Ground10.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Ground</Tag>
+			</Prefab>
+		</Category>
+		<Category>
+			<Name>Wall</Name>
+			<ObjectGroupName>RoomWalls</ObjectGroupName>
+			<FolderNames>
+				<Name0>Assets</Name0>
+				<Name1>Asset Packs</Name1>
+				<Name2>L_FG_Assets_Pack1.0</Name2>
+				<Name3>Perfabs</Name3>
+				<Name4>Wall</Name4>
+			</FolderNames>
+			<Prefab>
+				<Name>Wall01_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall01_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall01_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall01_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall01_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall01_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall01_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall01_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall02_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall02_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall02_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall02_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall02_c</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall02_c.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall02_d</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall02_d.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall03_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall03_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall03_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall03_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall04_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall04_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall04_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall04_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall05_a</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall05_a.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall05_b</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall05_b.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+			<Prefab>
+				<Name>Wall06</Name>
+				<Path>Assets/Asset Packs/L_FG_Assets_Pack1.0/Perfabs/Wall/Wall06.prefab</Path>
+				<Offset_From_Grid_Surface>0</Offset_From_Grid_Surface>
+				<Offset_From_Object_Surface>0</Offset_From_Object_Surface>
+				<Tag>Wall</Tag>
+			</Prefab>
+		</Category>
+	</PrefabCategories>
+		<PrefabScrollViewLookAndFeel>
+			<NumPrefabsPerRow>6</NumPrefabsPerRow>
+			<PrefabPreviewScale>1</PrefabPreviewScale>
+			<PrefabScrollViewHeight>200</PrefabScrollViewHeight>
+			<ActivePrefabTint>0.639,0.909,1,1</ActivePrefabTint>
+			<ShowPrefabNames>False</ShowPrefabNames>
+			<PrefabNameLabelColor>0,0,0,1</PrefabNameLabelColor>
+		</PrefabScrollViewLookAndFeel>
+</PrefabConfig>
