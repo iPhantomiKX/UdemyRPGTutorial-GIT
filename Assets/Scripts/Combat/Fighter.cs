@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GameDevTV.Utils;
+using RPG.Utils;
 using System;
 
 using RPG.Movement;

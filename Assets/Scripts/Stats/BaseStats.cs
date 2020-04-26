@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using RPG.Attributes;
-using GameDevTV.Utils;
+using RPG.Utils;
 using System;
 
 namespace RPG.Stats

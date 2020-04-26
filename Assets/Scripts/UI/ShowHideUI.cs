@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RPG.InventoryExample.UI
+namespace InventoryExample.UI
 {
     public class ShowHideUI : MonoBehaviour
     {

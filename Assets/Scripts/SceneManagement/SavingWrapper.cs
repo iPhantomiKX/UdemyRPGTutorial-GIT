@@ -8,6 +8,9 @@ namespace RPG.SceneManagement
 {
     public class SavingWrapper : MonoBehaviour
     {
+        [SerializeField] KeyCode saveKey = KeyCode.S;
+        [SerializeField] KeyCode loadKey = KeyCode.L;
+        [SerializeField] KeyCode deleteKey = KeyCode.Delete;
         const string defaultSaveFile = "save";
         [SerializeField] float fadeInTime = 0.5f;
 
@@ -28,15 +31,26 @@ namespace RPG.SceneManagement
 
         void Update()
         {
-            if(Input.GetKeyDown(KeyCode.L))
+            if(Input.GetKeyDown(loadKey))
             {
                 Load();
             }
 
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(saveKey))
             {
                 Save();
             }
+
+            if (Input.GetKeyDown(deleteKey))
+            {
+                Save();
+            }
+        }
+
+        public void Load()
+        {
+            //call to saving system load
+            StartCoroutine(GetComponent<SavingSystem>().LoadLastScene(defaultSaveFile));
         }
 
         public void Save()
@@ -45,10 +59,9 @@ namespace RPG.SceneManagement
             GetComponent<SavingSystem>().Save(defaultSaveFile);
         }
 
-        public void Load()
+        public void Delete()
         {
-            //call to saving system load
-            GetComponent<SavingSystem>().Load(defaultSaveFile);
+            GetComponent<SavingSystem>().Delete(defaultSaveFile);
         }
     }
 }

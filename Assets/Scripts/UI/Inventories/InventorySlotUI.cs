@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using RPG.UI.Dragging;
 using RPG.Inventories;
+using RPG.Core.UI.Dragging;
 
 namespace RPG.UI.Inventories
 {
-    public class InventorySlotUI : MonoBehaviour, IDragContainer<Sprite>
+    public class InventorySlotUI : MonoBehaviour, IItemHolder, IDragContainer<InventoryItem>
     {
         // CONFIG DATA
         [SerializeField] InventoryItemIcon icon = null;
@@ -17,43 +17,41 @@ namespace RPG.UI.Inventories
         Inventory inventory;
 
         // PUBLIC
+
         public void Setup(Inventory inventory, int index)
         {
             this.inventory = inventory;
             this.index = index;
-            //icon.SetItem(inventory.GetItemInSlot(index), inventory.GetNumberInSlot(index));
+            icon.SetItem(inventory.GetItemInSlot(index), inventory.GetNumberInSlot(index));
         }
 
-        public int MaxAcceptable(Sprite item)
+        public int MaxAcceptable(InventoryItem item)
         {
-            if (GetItem() == null)
+            if (inventory.HasSpaceFor(item))
             {
                 return int.MaxValue;
             }
             return 0;
         }
 
-        public void AddItems(Sprite item, int number)
+        public void AddItems(InventoryItem item, int number)
         {
-            print(gameObject + "Add Item " + item);
-            icon.SetItem(item);
+            inventory.AddItemToSlot(index, item, number);
         }
 
-        public Sprite GetItem()
+        public InventoryItem GetItem()
         {
-            print(gameObject + "Get Item " + icon.GetItem());
-            return icon.GetItem();
+            return inventory.GetItemInSlot(index);
         }
 
         public int GetNumber()
         {
-            return 1;
+            return inventory.GetNumberInSlot(index);
         }
 
         public void RemoveItems(int number)
         {
-            print(gameObject + "Remove Item " + icon.GetItem()); 
-            icon.SetItem(null);
+            inventory.RemoveFromSlot(index, number);
         }
     }
 }

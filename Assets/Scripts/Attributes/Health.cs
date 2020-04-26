@@ -6,7 +6,7 @@ using RPG.Stats;
 using RPG.Core;
 using System;
 using RPG.Combat;
-using GameDevTV.Utils;
+using RPG.Utils;
 using UnityEngine.Events;
 
 namespace RPG.Attributes
