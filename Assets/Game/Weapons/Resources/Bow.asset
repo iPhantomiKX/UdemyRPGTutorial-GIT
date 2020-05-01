@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54879d025ae9d14ca4feb84cca6a509, type: 3}
   m_Name: Bow
   m_EditorClassIdentifier: 
+  itemID: afaeccf6-2ac0-443c-b336-5bf4adafb2a0
+  displayName: Bow
+  description: A weapon commonly used by hunters
+  icon: {fileID: 21300000, guid: 87aaf0dcbda25384eb53a503e4dce73b, type: 3}
+  pickup: {fileID: 6063224764437516586, guid: 39a6b873b106a5e4baf637b46f7d57a7, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
   animatorOverride: {fileID: 22100000, guid: f8a38e03cdf6ca543978d941b8509dca, type: 2}
   equippedPrefab: {fileID: 1569909527832546491, guid: ea46d4a75722a5a419e7bffba8f77b83,
     type: 3}

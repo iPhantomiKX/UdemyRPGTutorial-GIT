@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54879d025ae9d14ca4feb84cca6a509, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
+  itemID: dc15bd03-8351-4b4f-9a4b-fae1767246d0
+  displayName: Sword
+  description: A sharp sword to fend off enemies and protect oneself
+  icon: {fileID: 21300000, guid: dc8f2b99d0cf73f4f851f40a48fedb97, type: 3}
+  pickup: {fileID: 6081900913483458044, guid: 3cb637e1733f00248b1b7bf7257f5f8d, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
   animatorOverride: {fileID: 22100000, guid: 13af88bec71fb08449739be04b8725de, type: 2}
   equippedPrefab: {fileID: 3673180584026465776, guid: c9d58f09153f06b47bd8098bdedce046,
     type: 3}

@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3867990086308437616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4281535495835802737}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_Name
+      value: Staff03
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 469d576a8e4129b409229135016de5f4, type: 3}
+--- !u!1001 &8865112254243312421
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2450942803146672215, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_Name
+      value: Staff Pickup Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689410587959120346, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_Name
+      value: StaffPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328318261779220841, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328318261779220841, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328318261779220841, guid: 6e3df2216ce429d458767cf79624bfab,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e3df2216ce429d458767cf79624bfab, type: 3}
+--- !u!4 &4281535495835802737 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4642126519322693460, guid: 6e3df2216ce429d458767cf79624bfab,
+    type: 3}
+  m_PrefabInstance: {fileID: 8865112254243312421}
+  m_PrefabAsset: {fileID: 0}

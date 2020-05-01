@@ -15,7 +15,7 @@ MonoBehaviour:
   itemID: 500ef3ea-0fd4-4b67-bea7-ffd5921ff3bf
   displayName: Hammer
   description: jasgfahsfjfas
-  icon: {fileID: 21300000, guid: ec22508be0cdfba4abbaeb770bef08aa, type: 3}
+  icon: {fileID: 21300000, guid: 113cca202e543c44c813d8b3a4bb73e2, type: 3}
   pickup: {fileID: 287962778100923690, guid: 1500ab01ff3227f48a3ccb932065c840, type: 3}
   stackable: 0
   allowedEquipLocation: 5

@@ -298,6 +298,12 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3572731819655939800, guid: e2307a72c95a8d84887ec44f088f922f,
+        type: 3}
+      propertyPath: damageTextPrefab
+      value: 
+      objectReference: {fileID: 5435130332312855718, guid: 111c1418a3551004e9eae52106ef7a5c,
+        type: 3}
     - target: {fileID: 4141929433462542733, guid: e2307a72c95a8d84887ec44f088f922f,
         type: 3}
       propertyPath: characterClass

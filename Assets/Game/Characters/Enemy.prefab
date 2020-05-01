@@ -41,9 +41,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 3
+  aggroCooldownTime: 5
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
+  shoutDistance: 3
   player: {fileID: 0}
 --- !u!1001 &840677772603759177
 PrefabInstance:
@@ -1193,6 +1195,22 @@ PrefabInstance:
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3185273350103264840}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1271232538, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
       propertyPath: m_Center.y
       value: 1
@@ -1230,6 +1248,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3572731819655939800, guid: e2307a72c95a8d84887ec44f088f922f,
+        type: 3}
+      propertyPath: damageTextPrefab
+      value: 
+      objectReference: {fileID: 5435130332312855718, guid: 111c1418a3551004e9eae52106ef7a5c,
+        type: 3}
     - target: {fileID: 4141929433462542733, guid: e2307a72c95a8d84887ec44f088f922f,
         type: 3}
       propertyPath: LevelUpParticleEffect
@@ -1358,5 +1382,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 612155743e0851540a7763d18653dcee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3185273350103264840 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3572731819655939800, guid: e2307a72c95a8d84887ec44f088f922f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2134910275076204688}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565a6cf83d2e1ac4fa7d453686c7ff03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

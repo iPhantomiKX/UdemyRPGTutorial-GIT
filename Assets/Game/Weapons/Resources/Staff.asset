@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54879d025ae9d14ca4feb84cca6a509, type: 3}
   m_Name: Staff
   m_EditorClassIdentifier: 
+  itemID: 3df92cae-70e2-449a-92dd-0590e57cb73c
+  displayName: 
+  description: 
+  icon: {fileID: 21300000, guid: ac6fa5c00ae9ef341865fe2f005c9568, type: 3}
+  pickup: {fileID: 8198231649078678457, guid: d3c378cafa89a9b49bde64946975a3a4, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
   animatorOverride: {fileID: 22100000, guid: 671eb3438f541be459f76731d1b82ba0, type: 2}
   equippedPrefab: {fileID: 4325021182430006106, guid: 9c0eced391b73504eb539337ca8fa0b4,
     type: 3}
