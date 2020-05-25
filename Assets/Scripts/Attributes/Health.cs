@@ -71,6 +71,7 @@ namespace RPG.Attributes
             else
             {
                 takeDamage.Invoke(damage);
+                gameObject.transform.LookAt(instigator.transform);
             }
         }
 

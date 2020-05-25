@@ -1,20 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &8804343841317982698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7596359464359370413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 531a5c1bc9731eb44b0c5fa89f17f149, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthComponent: {fileID: 2134910274042795245}
-  foreground: {fileID: 5499523587180121296}
-  rootCanvas: {fileID: 4275580236903985034}
 --- !u!114 &119228418770288377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +32,21 @@ MonoBehaviour:
   waypointDwellTime: 3
   shoutDistance: 3
   player: {fileID: 0}
+--- !u!114 &8804343841317982698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596359464359370413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 531a5c1bc9731eb44b0c5fa89f17f149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthComponent: {fileID: 2134910274042795245}
+  foreground: {fileID: 5499523587180121296}
+  rootCanvas: {fileID: 4275580236903985034}
 --- !u!1001 &840677772603759177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1165,7 +1165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
       propertyPath: healthPoints
@@ -1210,6 +1210,30 @@ PrefabInstance:
     - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 825827274534089825}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: GetHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117305981, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1271232538, guid: e2307a72c95a8d84887ec44f088f922f, type: 3}
       propertyPath: m_Center.y
@@ -1369,6 +1393,12 @@ GameObject:
 --- !u!4 &7349855102623701275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8673747971948802443, guid: e2307a72c95a8d84887ec44f088f922f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2134910275076204688}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &825827274534089825 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1645313677799283953, guid: e2307a72c95a8d84887ec44f088f922f,
     type: 3}
   m_PrefabInstance: {fileID: 2134910275076204688}
   m_PrefabAsset: {fileID: 0}

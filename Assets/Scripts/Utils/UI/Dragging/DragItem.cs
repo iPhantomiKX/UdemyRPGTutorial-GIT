@@ -137,10 +137,18 @@ namespace RPG.Core.UI.Dragging
 
             // Abort if we can't do a successful swap
             if (source.MaxAcceptable(removedDestinationItem) < removedDestinationNumber ||
-                destination.MaxAcceptable(removedSourceItem) < removedSourceNumber)
+                destination.MaxAcceptable(removedSourceItem) < removedSourceNumber ||
+                destination.MaxAcceptable(removedSourceItem) == 0 ||
+                source.MaxAcceptable(removedDestinationItem) == 0)
             {
-                destination.AddItems(removedDestinationItem, removedDestinationNumber);
-                source.AddItems(removedSourceItem, removedSourceNumber);
+                if(removedDestinationNumber > 0)
+                {
+                    destination.AddItems(removedDestinationItem, removedDestinationNumber);
+                }
+                if(removedSourceNumber > 0)
+                {
+                    source.AddItems(removedSourceItem, removedSourceNumber);
+                }
                 return;
             }
 
