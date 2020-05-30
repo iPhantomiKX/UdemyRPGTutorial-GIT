@@ -80,12 +80,9 @@ namespace RPG.Core.UI.Dragging
         {
             if (eventData.pointerEnter)
             {
-                var container = eventData.pointerEnter.GetComponent<IDragDestination<T>>();
+                var container = eventData.pointerEnter.GetComponentInParent<IDragDestination<T>>();
 
-                if (container != null) 
-                {
-                    return container;
-                }
+                return container;
             }
             return null;
         }
@@ -137,18 +134,10 @@ namespace RPG.Core.UI.Dragging
 
             // Abort if we can't do a successful swap
             if (source.MaxAcceptable(removedDestinationItem) < removedDestinationNumber ||
-                destination.MaxAcceptable(removedSourceItem) < removedSourceNumber ||
-                destination.MaxAcceptable(removedSourceItem) == 0 ||
-                source.MaxAcceptable(removedDestinationItem) == 0)
+                destination.MaxAcceptable(removedSourceItem) < removedSourceNumber)
             {
-                if(removedDestinationNumber > 0)
-                {
-                    destination.AddItems(removedDestinationItem, removedDestinationNumber);
-                }
-                if(removedSourceNumber > 0)
-                {
-                    source.AddItems(removedSourceItem, removedSourceNumber);
-                }
+                destination.AddItems(removedDestinationItem, removedDestinationNumber);
+                source.AddItems(removedSourceItem, removedSourceNumber);
                 return;
             }
 

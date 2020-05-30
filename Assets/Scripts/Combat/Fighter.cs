@@ -24,7 +24,6 @@ namespace RPG.Combat
         Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         GameObject onhitEffect = null;
-
         WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
