@@ -134,10 +134,8 @@ namespace RPG.Combat
             else
             {
                 target.TakeDamage(gameObject, damage);
-                StartCoroutine(DoFreeze());
                 StartCoroutine(OnHitEffect());
             }
-
         }
 
         void Shoot()
@@ -206,16 +204,6 @@ namespace RPG.Combat
             onhitEffect.transform.rotation = Quaternion.RotateTowards(transform.rotation, target.transform.rotation, 0);
             yield return new WaitForSeconds(1.0f);
             Destroy(onhitEffect);
-        }
-
-        IEnumerator DoFreeze()
-        {
-            var original = Time.timeScale;
-            Time.timeScale = 0f;
-
-            yield return new WaitForSecondsRealtime(freezeDuration);
-
-            Time.timeScale = original;
         }
 
         public object CaptureState()

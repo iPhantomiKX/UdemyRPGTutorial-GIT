@@ -66,6 +66,7 @@ namespace RPG.Inventories
         {
             if (dockedItems.ContainsKey(index))
             {  
+                //Check if item is exactly the same as the same scriptable object instance as the docked item
                 if (object.ReferenceEquals(item, dockedItems[index].item))
                 {
                     dockedItems[index].number += number;
@@ -149,6 +150,9 @@ namespace RPG.Inventories
             {
                 return 0;
             }
+            //if player do not meet requirement
+            //return 0;
+            //print("Cannot Equip Ability");
 
             return 1;
         }
