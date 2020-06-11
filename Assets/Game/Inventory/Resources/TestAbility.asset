@@ -15,7 +15,7 @@ MonoBehaviour:
   itemID: afe6c63c-b1e7-451c-ad2b-a1f94d6b4783
   displayName: TestAbility
   description: TestAbility
-  icon: {fileID: 0}
-  pickup: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6bb4cb9e8d5dc4b42a076ceb6a5c7251, type: 3}
+  pickup: {fileID: 287962778100923690, guid: fd0c8a95d18a9014d8b6751b899450a1, type: 3}
   stackable: 0
   consumable: 0

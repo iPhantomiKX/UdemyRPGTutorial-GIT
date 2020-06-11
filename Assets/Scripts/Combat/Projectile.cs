@@ -12,10 +12,10 @@ public class Projectile : MonoBehaviour
     [SerializeField] float speed = 1;
     [SerializeField] bool isHoming = true;
     [SerializeField] GameObject hitEffect = null;
-        [SerializeField] float maxLifeTime = 10;
-        [SerializeField] GameObject[] destroyOnHit = null;
-        [SerializeField] float lifeAfterImpact = 2;
-        [SerializeField] UnityEvent onHit;
+    [SerializeField] float maxLifeTime = 10;
+    [SerializeField] GameObject[] destroyOnHit = null;
+    [SerializeField] float lifeAfterImpact = 2;
+    [SerializeField] UnityEvent onHit;
 
     Health target = null;
     GameObject instigator = null;
@@ -42,7 +42,6 @@ public class Projectile : MonoBehaviour
         this.target = target;
         this.damage = damage;
         this.instigator = instigator;
-
 
         Destroy(gameObject, maxLifeTime);
     }
