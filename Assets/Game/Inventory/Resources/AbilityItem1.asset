@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5400dc46b9d99c449343fd0c489c412, type: 3}
+  m_Name: AbilityItem1
+  m_EditorClassIdentifier: 
+  itemID: b1397296-0233-4f9c-a8da-f32cb984806a
+  displayName: AbilityItem1
+  description: LOL
+  icon: {fileID: 21300000, guid: ada58e5f5d4fbba4f939ac6478ff43d9, type: 3}
+  pickup: {fileID: 287962778100923690, guid: fd0c8a95d18a9014d8b6751b899450a1, type: 3}
+  stackable: 0
+  consumable: 0
+  abilitySpell: {fileID: 254513904812443240, guid: d939e6e566c8531489a2769adc3208e0,
+    type: 3}
