@@ -24,7 +24,7 @@ namespace RPG.Combat
         Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         GameObject onhitEffect = null;
-        WeaponConfig currentWeaponConfig;
+        [SerializeField] WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
         private void Awake()
@@ -70,6 +70,7 @@ namespace RPG.Combat
         {
             currentWeaponConfig = weapon;
             currentWeapon.value = AttachWeapon(weapon);
+            GetComponent<Animator>().SetFloat("AttackSpeed", weapon.GetAttackSpeed());
         }
 
         private void UpdateWeapon()
@@ -112,7 +113,6 @@ namespace RPG.Combat
 
         private void TriggerAttack()
         {
-            GetComponent<Animator>().ResetTrigger("stopAttack");
             GetComponent<Animator>().SetTrigger("attack");
         }
 

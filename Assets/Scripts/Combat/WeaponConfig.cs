@@ -15,6 +15,7 @@ namespace RPG.Combat
         [SerializeField] GameObject onHitVFX = null;
         [SerializeField] float weaponRange = 1f;
         [SerializeField] float timeBetweenAttacks = 1f;
+        [SerializeField] float speedAttack = 1f;
         [SerializeField] float weaponDamage = 1f;
         [SerializeField] float percentageBonus = 0;
         [SerializeField] bool isRightHanded = true;
@@ -110,6 +111,11 @@ namespace RPG.Combat
         public float GetTimeBetweenAttacks()
         {
             return timeBetweenAttacks;
+        }
+
+        public float GetAttackSpeed()
+        {
+            return speedAttack;
         }
 
         public GameObject GetOnHitVFX()

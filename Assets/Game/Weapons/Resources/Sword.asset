@@ -26,6 +26,7 @@ MonoBehaviour:
     type: 3}
   weaponRange: 4
   timeBetweenAttacks: 1
+  speedAttack: 2
   weaponDamage: 10
   percentageBonus: 10
   isRightHanded: 1

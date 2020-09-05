@@ -24,8 +24,9 @@ MonoBehaviour:
     type: 3}
   onHitVFX: {fileID: 8209555928854822169, guid: 760488e09fa45b643a1e1041226b0ff3,
     type: 3}
-  weaponRange: 10
-  timeBetweenAttacks: 1
+  weaponRange: 25
+  timeBetweenAttacks: 0
+  speedAttack: 3.5
   weaponDamage: 5
   percentageBonus: 10
   isRightHanded: 0
